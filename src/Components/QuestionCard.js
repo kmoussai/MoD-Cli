@@ -10,52 +10,52 @@ export default class QuestionCard extends Component {
             <div>
                 <Card className="m-1">
                     <Card.Header>
-                    <Row>
-                        <Col style={{cursor:"pointer"}} xs={8}><FaCheck></FaCheck> Question Title   </Col>
-                        <Col className="d-flex justify-content-end"
-                       
-                        >
-                        12 H ago
+                        <Row>
+                            <Col style={{ cursor: "pointer" }} xs={8}><FaCheck></FaCheck> Question Title   </Col>
+                            <Col className="d-flex justify-content-end"
+
+                            >
+                                12 H ago
                         </Col>
-                    </Row>
+                        </Row>
                     </Card.Header>
                     <Card.Body>
-                    <Card.Title> User Name <Badge variant="success">Status</Badge> </Card.Title>
-                    <Row>
-                        <div >
-                            <Image
-                            style={{
-                            width: 64,
-                            height: 64
-                            }}
-                            src={imgSrc}
-                            roundedCircle
-                        />
-                        <hr/>
-                        <p>12 Answer</p>
+                        <Card.Title> User Name <Badge variant="success">Status</Badge> </Card.Title>
+                        <Row>
+                            <div >
+                                <Image
+                                    style={{
+                                        width: 64,
+                                        height: 64
+                                    }}
+                                    src={imgSrc}
+                                    roundedCircle
+                                />
+                                <hr />
+                                <p>12 Answer</p>
 
-                        </div>
-                        <Col >
-                        <Card.Text>
-                            Some quick example text to build on the card title and make
-                            up the bulk of the card
-                            Some quick example text to build on the card title and make
-                            up the bulk of the card
-                            Some quick example text to build on the card title and make
-                            up the bulk of the card
-                            Some quick example text to build on the card title and make
-                            up the bulk of the card
+                            </div>
+                            <Col >
+                                <Card.Text>
+                                    Some quick example text to build on the card title and make
+                                    up the bulk of the card
+                                    Some quick example text to build on the card title and make
+                                    up the bulk of the card
+                                    Some quick example text to build on the card title and make
+                                    up the bulk of the card
+                                    Some quick example text to build on the card title and make
+                                    up the bulk of the card
                         </Card.Text>
-                        </Col>
-                    </Row>
-                    <Card.Footer className="m-1 text-muted bg-white">
-                        Tags:
+                            </Col>
+                        </Row>
+                        <Card.Footer className="m-1 text-muted bg-white">
+                            Tags:
                     <Button className="m-1" size="sm" variant="outline-secondary">Math</Button>
-                    <Button className="m-1" size="sm" variant="outline-secondary">Math</Button>
-                    <Button className="m-1" size="sm" variant="outline-secondary">Math</Button>
-                    <Button className="m-1" size="sm" variant="outline-secondary">Math</Button>
-                    <Button className="m-1" size="sm" variant="outline-secondary">Math</Button>
-                    </Card.Footer>
+                            <Button className="m-1" size="sm" variant="outline-secondary">Math</Button>
+                            <Button className="m-1" size="sm" variant="outline-secondary">Math</Button>
+                            <Button className="m-1" size="sm" variant="outline-secondary">Math</Button>
+                            <Button className="m-1" size="sm" variant="outline-secondary">Math</Button>
+                        </Card.Footer>
                     </Card.Body>
                 </Card>
             </div>

@@ -1,17 +1,17 @@
 import React, { Component } from 'react'
 import {
-        InputGroup,
-        ListGroup,
-        Button,
-        FormControl,
+    InputGroup,
+    ListGroup,
+    Button,
+    FormControl,
 
-    } from 'react-bootstrap'
+} from 'react-bootstrap'
 import { FaSearch } from "react-icons/fa"
 
 
 
 class componentName extends Component {
-    render () {
+    render() {
         return (
             <div>
                 <InputGroup className="mb-3">
@@ -24,15 +24,15 @@ class componentName extends Component {
                         <Button variant="outline-secondary"> <FaSearch /></Button>
                     </InputGroup.Append>
                 </InputGroup>
-                
+
                 <ListGroup>
-                    <ListGroup.Item style={{cursor:"pointer"}}>Cras justo odio</ListGroup.Item>
-                    <ListGroup.Item style={{cursor:"pointer"}} >Dapibus ac facilisis in</ListGroup.Item>
-                    <ListGroup.Item style={{cursor:"pointer"}}> <strong>Morbi</strong> leo risus</ListGroup.Item>
-                    <ListGroup.Item style={{cursor:"pointer"}}>Porta ac consectetur ac</ListGroup.Item>
-                    <ListGroup.Item style={{cursor:"pointer"}}>Vestibulum <strong>Morbi</strong>at eros</ListGroup.Item>
+                    <ListGroup.Item style={{ cursor: "pointer" }}>Cras justo odio</ListGroup.Item>
+                    <ListGroup.Item style={{ cursor: "pointer" }} >Dapibus ac facilisis in</ListGroup.Item>
+                    <ListGroup.Item style={{ cursor: "pointer" }}> <strong>Morbi</strong> leo risus</ListGroup.Item>
+                    <ListGroup.Item style={{ cursor: "pointer" }}>Porta ac consectetur ac</ListGroup.Item>
+                    <ListGroup.Item style={{ cursor: "pointer" }}>Vestibulum <strong>Morbi</strong>at eros</ListGroup.Item>
                 </ListGroup>
-                
+
             </div>
         )
     }

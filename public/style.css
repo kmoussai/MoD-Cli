@@ -1,0 +1,22 @@
+@media screen and (max-width: 600px) {
+    .wsm-100 {
+      width:100% !important;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .wmd-100 {
+      width:100% !important;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    .wxl-40 {
+      width:40% !important;
+    }
+  }
+
+
+  .mystyle {
+      background-color: rgba(224, 200, 200, 0.15);
+  }
+
